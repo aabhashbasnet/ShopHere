@@ -106,7 +106,14 @@ span
 }
 .right-col img
 {
-    width: 100%;
+    width: 30rem;
+    padding-left:100px;
+}
+@media screen and (max-width:480px){
+    .right-col img
+    {
+        display: none;
+    }
 }
 .social-links
 {
